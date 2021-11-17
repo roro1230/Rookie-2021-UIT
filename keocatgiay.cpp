@@ -10,11 +10,6 @@ public:
     }
     void solve()
     {
-        if (n == 3 && m == 4) 
-        {
-            cout << 6 << endl;
-            return ;
-        }
         n-=2, m-=2 ;
         long long res = 0;
         if (m == 0) 
